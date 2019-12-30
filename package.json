@@ -1,0 +1,11 @@
+{
+    "name": "memoria-master",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "start": "sass Sass/main.scss Stylings/main.css --watch"
+    },
+    "author": "",
+    "license": "ISC"
+}

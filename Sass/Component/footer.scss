@@ -1,0 +1,50 @@
+.footer {
+    background-color: #616161;
+    color: #f4f9f4;
+    padding: 20px;
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+    h4 {
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    dt {
+        font-weight: 200;
+        text-indent: 20px;
+        font-size: 14px;
+    }
+    dd {
+        text-indent: 35px;
+        font-weight: 100;
+        font-size: 14px;
+    }
+    #contact {
+        border-right: 1px solid #f4f9f47e;
+        display: block;
+        padding: 10px;
+        width: 30%;
+        box-sizing: border-box;
+        float: left;
+        @media only screen and (max-width: 600px) {
+            float: none;
+            width: fit-content;
+            border: none;
+        }
+    }
+    #about {
+        display: block;
+        width: 70%;
+        padding: 10px;
+        box-sizing: border-box;
+        float: left;
+        p {
+            column-count: 2;
+            vertical-align: middle;
+            column-fill: balance;
+        }
+        @media only screen and (max-width: 600px) {
+            display: none;
+        }
+    }
+}
